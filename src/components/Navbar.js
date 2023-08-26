@@ -1,4 +1,4 @@
-import profileImg from '../images/profile-photo.JPG';
+import profileImg from '../images/logo.jpg';
 
 const Navbar = () => {
     return (
