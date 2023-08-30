@@ -7,7 +7,7 @@ const ContactForm = () => {
       return <p className='msg'>Thanks for messaging!</p>;
   }
   return (
-    <>
+    <section id='contact'>
       <h2 className="title">Contact Me</h2>
       <form onSubmit={handleSubmit} className='contact' >
       <input
@@ -35,7 +35,7 @@ const ContactForm = () => {
         Send
       </button>
     </form>
-  </>
+  </section>
   );
 }
 

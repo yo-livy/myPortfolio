@@ -8,7 +8,7 @@ const  About = () => {
         <div className="about-content">
 
           <div className="about-text">
-            <p> Currently transitioning to full-time coding, I am eager to apply and enhance my skills by contributing to meaningful and innovative projects. I bring a blend of analytical and creative thinking to the table. My journey into the world of coding has been fueled by my passion for problem-solving and a deep-seated desire to understand the digital landscapes that shape our modern lives. 
+            <p> Currently transitioning to full-time coding, I am eager to apply and enhance my skills by contributing to meaningful and innovative projects. I bring a blend of analytical and creative thinking. My journey into the world of coding has been fueled by my passion for problem-solving and a desire to understand the digital landscapes that shape our modern lives. 
             </p>
             <p>Every project I undertake is an opportunity to learn and grow. I believe in the power of collaboration and am always seeking opportunities to work with diverse teams where I can both share my knowledge and learn from others. Open to feedback, I continuously refine my techniques to stay updated with the latest technological trends and best practices.
             </p>

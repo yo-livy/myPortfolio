@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 .main {
     box-sizing: border-box;
     font-family: 'Rajdhani', sans-serif;
@@ -8,7 +12,7 @@ nav {
     align-items: center;
     height: fit-content;
     justify-content: space-between;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     position: fixed;
     width: 100vw;
     font-size: 18px;
@@ -46,11 +50,13 @@ ul li a {
     text-decoration: none;
     color: rgb(0, 0, 0);
     font-weight: 700;
-    padding: 10px 20px; 
+    padding: 10px 20px;
 }
 
 ul li a:hover {
-    color: green;
+    background-color: rgb(17, 0, 255);
+    color: white;
+    transition: 0.3s ease-in-out;
 }
 
 .header {
@@ -82,6 +88,7 @@ ul li a:hover {
     background-color: white;
     box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.2);
     padding: 40px 0;
+    scroll-margin-top: 150px;
 }
 
 .title {
@@ -89,6 +96,7 @@ ul li a:hover {
     font-size: 32px;
     font-weight: 700;
 }
+
 
 .about-content {
     display: flex;
@@ -155,8 +163,6 @@ ul li a:hover {
     background-color: #336791;
 }
 
-
-
 .projects-padding {
     padding: 0;
     padding-top: 40px;
@@ -164,6 +170,11 @@ ul li a:hover {
 
 .projects {
     margin-top: 50px;
+}
+
+.projects a {
+    text-decoration: none;
+    color: black;
 }
 
 .port-row {
@@ -188,14 +199,10 @@ ul li a:hover {
 
 .first {
     background-image: url('../images/viktor_frankl.png');
-    background-position: center;
-    background-size: cover;
 }
 
 .second {
     background-image: url('../images/reboot_mind.png');
-    background-position: center;
-    background-size: cover;
 }
 
 .third {
@@ -204,18 +211,45 @@ ul li a:hover {
 
 .fourth {
     background-image: url('../images/simplehabits.png');
-    background-position: center;
-    background-size: cover;
 }
 
 .fifth {
     background-image: url('../images/cashboard.png');
-    background-position: center;
-    background-size: cover;
 }
 
 .sixth {
     background-color: yellow;
+}
+
+.no-padding {
+    padding: 0;
+    display: flex;
+}
+
+.img-container {
+    height: auto;
+    width: 65%;
+    background-position: center;
+    background-size: cover;
+}
+
+.project-desc {
+    height: auto;
+    min-height: 450px;
+    width: 35%;
+    margin: 20px 20px;
+    font-size: 18px;
+}
+
+.project-desc-title {
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.project-desc a {
+    text-decoration: none;
+    color: blue;
+    font-weight: 700;
 }
 
 .contact {
@@ -260,7 +294,7 @@ ul li a:hover {
 
 .btn:hover {
     cursor: pointer;
-    color: green;
+    color: rgb(17, 0, 255);
 }
 
 
@@ -287,13 +321,13 @@ footer {
     font-size: 2rem;
     padding: 1rem;
     transition:all 0.3s ease;
-    color: rgb(68, 88, 68);
+    color: rgb(102, 102, 102);
     cursor: pointer;
 }
 
 .icons i:hover {
     transform: scale(1.1);
-    color: green;
+    color: rgb(17, 0, 255);
 }
 
 .tooltip-container {
