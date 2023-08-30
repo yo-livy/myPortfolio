@@ -10,8 +10,8 @@ const ProjectThree = () => {
               <p>PostgreSQL</p>
               <p>3rd party api: TwitterAPI</p>
               <p>
-                <a href="https://github.com/yo-livy/hackathon3_simple_habits.git">Github</a><br/><br/>
-                <a href="https://mind-client.onrender.com">Website</a>
+                <a href="https://github.com/yo-livy/hackathon3_simple_habits.git" target="_blank">Github</a><br/><br/>
+                <a href="https://mind-client.onrender.com" target="_blank">Website</a>
               </p>
             </div>
       </section>
