@@ -20,8 +20,8 @@ function App() {
       <Projects />
       <ProjectOne />
       <ProjectTwo />
-      <ProjectThree />
       <ProjectFour />
+      <ProjectThree />
       <ContactForm />
       <Footer />
     </div>
