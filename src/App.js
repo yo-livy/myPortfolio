@@ -18,10 +18,10 @@ function App() {
       <Header />
       <About />
       <Projects />
-      <ProjectOne />
-      <ProjectTwo />
       <ProjectFour />
       <ProjectThree />
+      <ProjectOne />
+      <ProjectTwo />
       <ContactForm />
       <Footer />
     </div>
